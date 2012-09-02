@@ -1,5 +1,7 @@
+//singleton pattern
 var FizzBuzz = function() {
 
+    //private functions
     function isMultipleOf3(num){
         return num % 3 == 0;
     }
@@ -8,6 +10,7 @@ var FizzBuzz = function() {
         return num % 5 == 0;
     }
 
+    //public functions
     return {
 
         getAllMultiplesOf3From : function(collection){
